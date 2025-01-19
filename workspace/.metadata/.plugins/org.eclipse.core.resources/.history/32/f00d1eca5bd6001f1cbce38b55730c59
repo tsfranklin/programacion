@@ -1,0 +1,13 @@
+package controladores;
+
+public class Inicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String mensaje;
+	mensaje = "Bienvenido a gestion de blibliotecas";
+	System.out.println(mensaje);
+	}
+
+}

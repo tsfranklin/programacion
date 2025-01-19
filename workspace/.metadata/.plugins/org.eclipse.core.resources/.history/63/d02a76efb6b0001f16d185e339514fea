@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 60;
+		int b = 50;
+		
+	    public static String error(String nombre)
+	    {
+	        //Se crea el mensaje de error
+	        String error = "Ups. No pudimos validar tus datos. " + nombre + " es tu usuario?";
+
+	        return error; //Se retorna el error
+	    }
+		
+		System.out.println(a+b);
+}
+
+}

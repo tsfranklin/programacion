@@ -1,0 +1,22 @@
+package controladores;
+
+public class OperadoresIncrementale {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Integer a = 0;
+		
+		--a;
+		System.out.println(a);
+		
+		int b= 19;
+
+		int c = (a<20) ? (a+1) : (a-1); //b tomará el valor 20.
+		
+		System.out.println(c);
+		
+	}
+
+}
